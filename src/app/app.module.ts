@@ -7,6 +7,7 @@ import { BasicHighLightDirective } from './basic-highlight/basic-highlight.direc
 import { BetterHighlightDirective } from './better-highlight/better-highlight.directive';
 import { HostBindingHighlightDirective } from './host-binding-highlight/host-binding-highlight.directive';
 import { PropertyHostBindingDirective } from './property-host-binding/property-host-binding.directive';
+import { UnlessDirective } from './unless/unless.directive';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { PropertyHostBindingDirective } from './property-host-binding/property-h
     BasicHighLightDirective,
     BetterHighlightDirective,
     HostBindingHighlightDirective,
-    PropertyHostBindingDirective
+    PropertyHostBindingDirective,
+    UnlessDirective
   ],
   imports: [
     BrowserModule,
