@@ -1,6 +1,10 @@
 # Custom Directives
 
-## Creating custom Attribute Directive
+## Table of Contents  
+* [Creating Custom Attribute Directive](#Creating-Custom-Attribute-Directive)<br>
+* [Creating Custom Structural Directive](#Creating-Custom-Structural-Directive)<br>
+
+## Creating Custom Attribute Directive
 
 1. Create new folder in the root 
 
@@ -125,7 +129,7 @@
     }
     ~~~
 
-## Creating custom structural directive
+## Creating Custom Structural Directive
 
 1. Create the ```unless``` directive, which work exactly opposite to the ```*ngIf``` directive
 
